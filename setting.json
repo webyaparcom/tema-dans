@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Dans ve müzik dersi; görseller temsilîdir.",
+    "en": "Dance and music lessons; images are representative.",
+    "ar": "دروس رقص وموسيقى؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "dans, müzik, okul",
+    "en": "dance, music, school",
+    "ar": "رقص، موسيقى، مدرسة"
+  },
+  "category": "Kurumsal",
+  "name": "Nota Dans",
+  "domain": "dans.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "poppins",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#C24142",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "11px",
+    "--mx-radius-md": "18px",
+    "--mx-radius-lg": "25px",
+    "--mx-radius-xl": "34px"
+  },
+  "icon": "icon.png"
+}
