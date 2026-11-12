@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Deneme dersi",
+          "en": "Trial class",
+          "ar": "حصة تجريبية"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "egitim-hero-okul.webp",
+        "img": "spor-ders-salonu.webp",
         "video": "",
         "poster": "",
         "alt": "Nota Dans",
@@ -1533,9 +1544,9 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Müzik & dans",
-          "en": "Music & dance",
-          "ar": "موسيقى ورقص"
+          "tr": "Dans ve müzik kursu",
+          "en": "Dance & music school",
+          "ar": "مدرسة رقص وموسيقى"
         },
         "title": {
           "tr": "Ritme, adımla",
@@ -1543,20 +1554,20 @@
           "ar": "خطوة إلى الإيقاع"
         },
         "metin": {
-          "tr": "Nota Dans, dans ve müzik dersi verir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Nota gives dance and music lessons. Images are representative and text is fictional.",
-          "ar": "يعطي نوتا درس رقص وموسيقى. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Aynalı stüdyoda Latin, modern ve çocuk dans grupları; düğün için özel koreografi. İlk ders denemedir.",
+          "en": "Latin, modern and kids' dance groups in a mirrored studio, plus custom wedding choreography. The first lesson is a trial.",
+          "ar": "مجموعات رقص لاتيني وحديث وللأطفال في استوديو بمرايا، مع تصميم رقصة خاصة للزفاف. الحصة الأولى تجريبية."
         },
         "cta1": {
-          "tr": "Dersler",
-          "en": "Lessons",
-          "ar": "دروس"
+          "tr": "Dans grupları",
+          "en": "Dance classes",
+          "ar": "مجموعات الرقص"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Deneme dersi",
-          "en": "Trial lesson",
-          "ar": "حصة تجريبية"
+          "tr": "Deneme dersi al",
+          "en": "Book a trial class",
+          "ar": "احجز حصة تجريبية"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl öğretiyoruz?",
-          "en": "How do we teach?",
-          "ar": "كيف ندرّس؟"
+          "tr": "Hangi dansı seversin?",
+          "en": "Which dance is yours?",
+          "ar": "أي رقصة تناسبك؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1614,12 +1625,12 @@
       "data": [
         {
           "deger": 300,
-          "sonek": "",
-          "ikon": "school",
+          "sonek": "+",
+          "ikon": "groups",
           "etiket": {
-            "tr": "Öğrenci",
+            "tr": "Kursiyer",
             "en": "Students",
-            "ar": "طلاب"
+            "ar": "متدرب"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1630,26 +1641,11 @@
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "translate",
+          "ikon": "music_note",
           "etiket": {
-            "tr": "Ders",
-            "en": "Lessons",
-            "ar": "دروس"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 85,
-          "sonek": "%",
-          "ikon": "forum",
-          "etiket": {
-            "tr": "Takip",
-            "en": "Tracking",
-            "ar": "متابعة"
+            "tr": "Dans stili",
+            "en": "Dance styles",
+            "ar": "أسلوب رقص"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1660,11 +1656,26 @@
         {
           "deger": 18,
           "sonek": "",
-          "ikon": "groups",
+          "ikon": "event_repeat",
           "etiket": {
-            "tr": "Sınıf",
-            "en": "Classes",
-            "ar": "صفوف"
+            "tr": "Haftalık grup",
+            "en": "Weekly groups",
+            "ar": "مجموعة أسبوعية"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 4,
+          "sonek": "",
+          "ikon": "theater_comedy",
+          "etiket": {
+            "tr": "Yıllık gösteri",
+            "en": "Showcases a year",
+            "ar": "عرض سنويًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Öğrenme",
-          "en": "Learning",
-          "ar": "التعلم"
+          "tr": "Stüdyomuz",
+          "en": "Our studio",
+          "ar": "استوديونا"
         },
         "title": {
-          "tr": "Nasıl öğretiyoruz?",
-          "en": "How do we teach?",
-          "ar": "كيف ندرّس؟"
+          "tr": "Hangi dansı seversin?",
+          "en": "Which dance is yours?",
+          "ar": "أي رقصة تناسبك؟"
         },
         "description": {
-          "tr": "Kayıttan sınava; dersten takibe.",
-          "en": "From registration to exam; from lesson to tracking.",
-          "ar": "من التسجيل إلى الامتحان؛ من الدرس إلى المتابعة."
+          "tr": "Başlangıçtan sahneye; yaşa ve seviyeye göre gruplar.",
+          "en": "From first steps to the stage; groups by age and level.",
+          "ar": "من الخطوات الأولى إلى المسرح؛ مجموعات حسب العمر والمستوى."
         }
       },
       "data": [
         {
-          "icon": "school",
+          "icon": "music_note",
           "name": {
-            "tr": "Ders salonu",
-            "en": "Classroom",
-            "ar": "قاعة درس"
+            "tr": "Latin dansları",
+            "en": "Latin dances",
+            "ar": "الرقص اللاتيني"
           },
           "description": {
-            "tr": "Ders ve tatbikat akışı.",
-            "en": "Lesson and practice flow.",
-            "ar": "مسار درس وتطبيق."
+            "tr": "Salsa, bachata ve cha-cha; çiftli ve bireysel gruplar.",
+            "en": "Salsa, bachata and cha-cha; couple and solo groups.",
+            "ar": "سالسا وباشاتا وتشا تشا؛ مجموعات للأزواج والأفراد."
           }
         },
         {
-          "icon": "translate",
+          "icon": "child_care",
           "name": {
-            "tr": "Destek dilleri",
-            "en": "Support languages",
-            "ar": "لغات دعم"
+            "tr": "Çocuk dans grupları",
+            "en": "Kids' dance groups",
+            "ar": "مجموعات رقص الأطفال"
           },
           "description": {
-            "tr": "İngilizce/Arapça destek (demo).",
-            "en": "English/Arabic support (demo).",
-            "ar": "دعم الإنجليزية/العربية (تجريبي)."
+            "tr": "4–12 yaş; ritim, denge ve sahne alışkanlığı.",
+            "en": "Ages 4–12; rhythm, balance and stage confidence.",
+            "ar": "من 4 إلى 12 سنة؛ إيقاع وتوازن وثقة على المسرح."
           }
         },
         {
-          "icon": "psychology",
+          "icon": "favorite",
           "name": {
-            "tr": "Koreografi desteği",
-            "en": "Choreography support",
-            "ar": "دعم تصميم الرقصات"
+            "tr": "Düğün dansı",
+            "en": "Wedding dance",
+            "ar": "رقصة الزفاف"
           },
           "description": {
-            "tr": "Gösteri ve düğün dansı için koreografi (demo).",
-            "en": "Choreography for shows and wedding dances (demo).",
-            "ar": "تصميم رقصات للعروض ورقصات الزفاف (تجريبي)."
+            "tr": "Çiftlere özel koreografi ve birebir prova.",
+            "en": "Custom choreography and one-to-one rehearsals for couples.",
+            "ar": "تصميم رقصة خاصة وتدريب فردي للأزواج."
           }
         },
         {
-          "icon": "science",
+          "icon": "self_improvement",
           "name": {
-            "tr": "Deneme dersi",
-            "en": "Trial lesson",
-            "ar": "حصة تجريبية"
+            "tr": "Modern dans ve bale temeli",
+            "en": "Modern dance & ballet basics",
+            "ar": "الرقص الحديث وأساسيات الباليه"
           },
           "description": {
-            "tr": "Stil ve seviye tanışma dersi.",
-            "en": "An introductory class to meet styles and levels.",
-            "ar": "حصة تعريفية بالأساليب والمستويات."
+            "tr": "Duruş, esneklik ve akıcı hareket çalışması.",
+            "en": "Posture, flexibility and flowing movement.",
+            "ar": "تمارين الوقفة والمرونة والحركة السلسة."
           }
         },
         {
-          "icon": "calendar_month",
+          "icon": "library_music",
           "name": {
-            "tr": "Dönem takvimi",
-            "en": "Period calendar",
-            "ar": "تقويم الفترة"
+            "tr": "Ritim ve müzik atölyesi",
+            "en": "Rhythm & music workshop",
+            "ar": "ورشة الإيقاع والموسيقى"
           },
           "description": {
-            "tr": "Ders ve sınav planı.",
-            "en": "Lesson and exam plan.",
-            "ar": "خطة درس واختبار."
+            "tr": "Vuruşu saymayı, müziği dinlemeyi ve ritme girmeyi öğrenin.",
+            "en": "Learn to count beats, listen to the music and find the rhythm.",
+            "ar": "تعلّم عدّ الإيقاع والإصغاء للموسيقى والدخول في الإيقاع."
           }
         },
         {
-          "icon": "forum",
+          "icon": "theater_comedy",
           "name": {
-            "tr": "Ebeveyn bilgilendirmesi",
-            "en": "Parent information",
-            "ar": "معلومات أولياء الأمور"
+            "tr": "Gösteri ve sahne",
+            "en": "Showcases & stage",
+            "ar": "العروض والمسرح"
           },
           "description": {
-            "tr": "Dönem sonu bilgilendirme (demo).",
-            "en": "End-of-period information (demo).",
-            "ar": "معلومات نهاية الفترة (تجريبي)."
+            "tr": "Dönem sonu gösterisi ve etkinlik performansları.",
+            "en": "End-of-term showcase and event performances.",
+            "ar": "عرض نهاية الفصل وعروض الفعاليات."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl ilerliyoruz?",
+          "en": "How it works",
+          "ar": "كيف نسير؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda sahneye",
+          "en": "Four steps to the stage",
+          "ar": "أربع خطوات إلى المسرح"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Deneme dersinden dönem sonu gösterisine.",
+          "en": "From the trial class to the end-of-term showcase.",
+          "ar": "من الحصة التجريبية إلى عرض نهاية الفصل."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kayıt",
-            "en": "Enrollment",
-            "ar": "التسجيل"
+            "tr": "Deneme dersi",
+            "en": "Trial class",
+            "ar": "حصة تجريبية"
           },
           "text": {
-            "tr": "Ders ve dönem seçimi.",
-            "en": "Lesson and period selection.",
-            "ar": "اختيار درس وفترة."
+            "tr": "Stüdyoyu ve hocayı tanıyın; stil seçin.",
+            "en": "Meet the studio and teacher; pick a style.",
+            "ar": "تعرّف على الاستوديو والمدرّب واختر الأسلوب."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Seviye",
-            "en": "Level",
-            "ar": "المستوى"
+            "tr": "Grup seçimi",
+            "en": "Choose a group",
+            "ar": "اختيار المجموعة"
           },
           "text": {
-            "tr": "Seviye tespit sınavı.",
-            "en": "Level assessment exam.",
-            "ar": "امتحان تحديد المستوى."
+            "tr": "Yaş ve seviyeye uygun grupla eşleşin.",
+            "en": "Get matched to a group for your age and level.",
+            "ar": "يتم ضمّك إلى مجموعة تناسب عمرك ومستواك."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Ders",
-            "en": "Lessons",
-            "ar": "الدروس"
+            "tr": "Haftalık ders",
+            "en": "Weekly classes",
+            "ar": "الحصص الأسبوعية"
           },
           "text": {
-            "tr": "Haftalık ders akışı.",
-            "en": "Weekly lesson flow.",
-            "ar": "مسار درس أسبوعي."
+            "tr": "Haftada 1–2 gün düzenli stüdyo çalışması.",
+            "en": "Regular studio practice 1–2 days a week.",
+            "ar": "تدريب منتظم في الاستوديو من يوم إلى يومين أسبوعيًا."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Takip",
-            "en": "Tracking",
-            "ar": "التتبع"
+            "tr": "Sahne",
+            "en": "On stage",
+            "ar": "على المسرح"
           },
           "text": {
-            "tr": "Takip ve not raporu.",
-            "en": "Tracking and grade report.",
-            "ar": "متابعة وتقريب الدرجات."
+            "tr": "Dönem sonu gösterisinde öğrendiklerinizi sergileyin.",
+            "en": "Show what you learned in the end-of-term showcase.",
+            "ar": "اعرض ما تعلمته في عرض نهاية الفصل."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Eğitmenlerimiz",
+          "en": "Our instructors",
+          "ar": "مدرّبونا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi stüdyoda karşılayanlar",
+          "en": "Who you will meet in the studio",
+          "ar": "من ستقابلهم في الاستوديو"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1937,37 +1948,37 @@
             "ar": "مصممة رقصات"
           },
           "bio": {
-            "tr": "12 yıl ders.",
-            "en": "12 years of lessons.",
-            "ar": "١٢ عامًا في الدروس."
+            "tr": "Latin ve düğün koreografisinde 12 yıl.",
+            "en": "12 years in Latin and wedding choreography.",
+            "ar": "12 عامًا في الرقص اللاتيني وتصميم رقصات الزفاف."
           },
           "img": ""
         },
         {
           "name": "Barış K.",
           "role": {
-            "tr": "Dansçı",
-            "en": "Dancer",
-            "ar": "راقص"
+            "tr": "Dans eğitmeni",
+            "en": "Dance instructor",
+            "ar": "مدرّب رقص"
           },
           "bio": {
-            "tr": "7 yıl sahne.",
-            "en": "7 years on stage.",
-            "ar": "٧ سنوات على المسرح."
+            "tr": "Salsa ve bachata gruplarında 7 yıl.",
+            "en": "7 years teaching salsa and bachata groups.",
+            "ar": "7 سنوات في تدريس مجموعات السالسا والباشاتا."
           },
           "img": ""
         },
         {
           "name": "Zeynep D.",
           "role": {
-            "tr": "Ritim Öğretmeni",
-            "en": "Rhythm teacher",
-            "ar": "معلمة إيقاع"
+            "tr": "Çocuk grubu eğitmeni",
+            "en": "Kids' group instructor",
+            "ar": "مدرّبة مجموعة الأطفال"
           },
           "bio": {
-            "tr": "5 yıl takip.",
-            "en": "5 years of tracking.",
-            "ar": "٥ سنوات في المتابعة."
+            "tr": "Ritim ve çocuk dansında 5 yıl.",
+            "en": "5 years in rhythm and children's dance.",
+            "ar": "5 سنوات في الإيقاع ورقص الأطفال."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Kursiyerlerimiz ne diyor?",
+          "en": "What our students say",
+          "ar": "ماذا يقول متدربونا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2026,39 +2037,39 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Takip net; ders saatleri düzenli.",
-            "en": "Tracking clear; lesson hours regular.",
-            "ar": "المتابعة واضحة؛ ساعات الدرس منتظمة."
+            "tr": "Kızım her hafta dans gününü iple çekiyor; hocalar çok ilgili.",
+            "en": "My daughter can't wait for dance day every week; the teachers are very caring.",
+            "ar": "ابنتي تنتظر يوم الرقص كل أسبوع بشغف؛ والمدرّبون مهتمون جدًا."
           }
         },
         {
           "name": "O. Duran.",
           "role": {
-            "tr": "Öğrenci",
+            "tr": "Kursiyer",
             "en": "Student",
-            "ar": "طالب"
+            "ar": "متدرب"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Deneme dersinden sonra hemen kaydoldum.",
-            "en": "I signed up right after the trial lesson.",
-            "ar": "سجّلت مباشرة بعد الحصة التجريبية."
+            "tr": "Hiç dans etmemiştim; deneme dersinden sonra hemen kaydoldum.",
+            "en": "I had never danced before; I signed up right after the trial class.",
+            "ar": "لم أرقص من قبل؛ وسجّلت مباشرة بعد الحصة التجريبية."
           }
         },
         {
           "name": "M. Şen.",
           "role": {
-            "tr": "Ebeveyn",
-            "en": "Parent",
-            "ar": "ولي أمر"
+            "tr": "Gelin",
+            "en": "Bride",
+            "ar": "عروس"
           },
-          "rating": 4,
+          "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sınav takvimi açık bildirim geldi.",
-            "en": "Exam calendar notification received.",
-            "ar": "جاء إشعار تقويم الامتحان بوضوح."
+            "tr": "Düğün dansımızı üç haftada hazırladık; çok keyifliydi.",
+            "en": "We prepared our wedding dance in three weeks; it was great fun.",
+            "ar": "جهّزنا رقصة زفافنا في ثلاثة أسابيع وكانت ممتعة جدًا."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "18px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Stüdyoda neler var?",
+          "en": "What happens in the studio",
+          "ar": "ماذا يحدث في الاستوديو؟"
         },
         "title": {
-          "tr": "Nasıl öğretiyoruz?",
-          "en": "How do we teach?",
-          "ar": "كيف ندرّس؟"
+          "tr": "Hangi dansı seversin?",
+          "en": "Which dance is yours?",
+          "ar": "أي رقصة تناسبك؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Ders salonu",
-            "en": "Classroom",
-            "ar": "قاعة درس"
+            "tr": "Latin dansları",
+            "en": "Latin dances",
+            "ar": "الرقص اللاتيني"
           },
           "metin": {
-            "tr": "Ders ve tatbikat akışı.",
-            "en": "Lesson and practice flow.",
-            "ar": "مسار درس وتطبيق."
+            "tr": "Salsa, bachata ve cha-cha; çiftli ve bireysel gruplar.",
+            "en": "Salsa, bachata and cha-cha; couple and solo groups.",
+            "ar": "سالسا وباشاتا وتشا تشا؛ مجموعات للأزواج والأفراد."
           },
-          "img": "egitim-sinif-1.webp",
+          "img": "cicekci-organizasyon.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Destek dilleri",
-            "en": "Support languages",
-            "ar": "لغات دعم"
+            "tr": "Çocuk dans grupları",
+            "en": "Kids' dance groups",
+            "ar": "مجموعات رقص الأطفال"
           },
           "metin": {
-            "tr": "İngilizce/Arapça destek (demo).",
-            "en": "English/Arabic support (demo).",
-            "ar": "دعم الإنجليزية/العربية (تجريبي)."
+            "tr": "4–12 yaş; ritim, denge ve sahne alışkanlığı.",
+            "en": "Ages 4–12; rhythm, balance and stage confidence.",
+            "ar": "من 4 إلى 12 سنة؛ إيقاع وتوازن وثقة على المسرح."
           },
-          "img": "egitim-bahce.webp",
+          "img": "otel-resepsiyon.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Koreografi desteği",
-            "en": "Choreography support",
-            "ar": "دعم تصميم الرقصات"
+            "tr": "Düğün dansı",
+            "en": "Wedding dance",
+            "ar": "رقصة الزفاف"
           },
           "metin": {
-            "tr": "Gösteri ve düğün dansı için koreografi (demo).",
-            "en": "Choreography for shows and wedding dances (demo).",
-            "ar": "تصميم رقصات للعروض ورقصات الزفاف (تجريبي)."
+            "tr": "Çiftlere özel koreografi ve birebir prova.",
+            "en": "Custom choreography and one-to-one rehearsals for couples.",
+            "ar": "تصميم رقصة خاصة وتدريب فردي للأزواج."
           },
-          "img": "egitim-kutuphane.webp",
+          "img": "spor-ders-salonu.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "18px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Sahne aldığımız yerler",
+          "en": "Where we have performed",
+          "ar": "أماكن قدّمنا فيها عروضنا"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal etkinlik ve mekân adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional event and venue names; they do not belong to a real organisation.",
+          "ar": "أسماء فعاليات وأماكن افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Sınıf"
-        },
-        {
           "name": "Demo Sahne"
         },
         {
-          "name": "Demo Koreografi"
+          "name": "Demo Festival"
         },
         {
-          "name": "Demo Ders"
+          "name": "Demo Müzik Evi"
         },
         {
-          "name": "Demo Takip"
+          "name": "Demo Düğün Salonu"
         },
         {
-          "name": "Demo Ebeveyn"
+          "name": "Demo Kültür Merkezi"
+        },
+        {
+          "name": "Demo Okul Gösterisi"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Daha önce hiç dans etmedim, katılabilir miyim?",
+            "en": "I have never danced; can I join?",
+            "ar": "لم أرقص من قبل، هل يمكنني الانضمام؟"
+          },
+          "answer": {
+            "tr": "Evet. Başlangıç grupları sıfırdan başlar; ilk ders deneme dersidir.",
+            "en": "Yes. Beginner groups start from zero; the first class is a trial.",
+            "ar": "نعم. تبدأ مجموعات المبتدئين من الصفر، والحصة الأولى تجريبية."
+          },
           "soru": {
-            "tr": "Ders saati ne kadar?",
-            "en": "How long is a lesson hour?",
-            "ar": "مدة ساعة الدرس كم?"
+            "tr": "Daha önce hiç dans etmedim, katılabilir miyim?",
+            "en": "I have never danced; can I join?",
+            "ar": "لم أرقص من قبل، هل يمكنني الانضمام؟"
           },
           "cevap": {
-            "tr": "Dönem dersine göre değişir; demo metni değil.",
-            "en": "It varies by period lesson; not a demo text.",
-            "ar": "تتغير حسب درس الفترة؛ غير نص تجريبي."
+            "tr": "Evet. Başlangıç grupları sıfırdan başlar; ilk ders deneme dersidir.",
+            "en": "Yes. Beginner groups start from zero; the first class is a trial.",
+            "ar": "نعم. تبدأ مجموعات المبتدئين من الصفر، والحصة الأولى تجريبية."
           }
         },
         {
+          "question": {
+            "tr": "Çocuklar için hangi yaştan itibaren grup var?",
+            "en": "From what age are there kids' groups?",
+            "ar": "من أي عمر تتوفر مجموعات للأطفال؟"
+          },
+          "answer": {
+            "tr": "4 yaşından itibaren; gruplar yaşa göre ayrılır.",
+            "en": "From age 4; groups are split by age.",
+            "ar": "من عمر 4 سنوات، وتُقسَّم المجموعات حسب العمر."
+          },
           "soru": {
-            "tr": "Seviye sınavı var mı?",
-            "en": "Is there a level exam?",
-            "ar": "هل يوجد اختبار مستوى?"
+            "tr": "Çocuklar için hangi yaştan itibaren grup var?",
+            "en": "From what age are there kids' groups?",
+            "ar": "من أي عمر تتوفر مجموعات للأطفال؟"
           },
           "cevap": {
-            "tr": "Kayıtta seviye tespit sınavı yapılır.",
-            "en": "A level assessment exam is done at registration.",
-            "ar": "يُجرى اختبار تحديد مستوى عند التسجيل."
+            "tr": "4 yaşından itibaren; gruplar yaşa göre ayrılır.",
+            "en": "From age 4; groups are split by age.",
+            "ar": "من عمر 4 سنوات، وتُقسَّم المجموعات حسب العمر."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Grup ve haftalık ders sayısına göre belirlenir; güncel fiyat için bizimle iletişime geçin.",
+            "en": "Prices depend on the group and lessons per week; contact us for current rates.",
+            "ar": "يعتمد السعر على المجموعة وعدد الحصص أسبوعيًا؛ تواصل معنا للأسعار الحالية."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Grup ve haftalık ders sayısına göre belirlenir; güncel fiyat için bizimle iletişime geçin.",
+            "en": "Prices depend on the group and lessons per week; contact us for current rates.",
+            "ar": "يعتمد السعر على المجموعة وعدد الحصص أسبوعيًا؛ تواصل معنا للأسعار الحالية."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "18px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Deneme dersi isteyin",
+          "en": "Request a trial class",
+          "ar": "اطلب حصة تجريبية"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
           "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "ar": "اترك بياناتك؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Nota Dans",
@@ -2421,7 +2472,7 @@
           "ar": "Nota Dans"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Deneme dersi formu",
+          "en": "Trial class form",
+          "ar": "نموذج الحصة التجريبية"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Deneme dersi",
+              "en": "Trial class",
+              "ar": "حصة تجريبية"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Çocuk grubu",
+              "en": "Kids' group",
+              "ar": "مجموعة الأطفال"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Düğün dansı",
+              "en": "Wedding dance",
+              "ar": "رقصة الزفاف"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Nota Dans"
         },
         "description": {
-          "tr": "Nota Dans, dans ve müzik dersi verir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Nota gives dance and music lessons. Images are representative and text is fictional.",
-          "ar": "يعطي نوتا درس رقص وموسيقى. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Nota Dans; Latin, modern ve çocuk dans grupları ile düğün dansı koreografisi sunan bir dans ve müzik kursudur. Görseller temsilidir; metinler kurgusaldır.",
+          "en": "Nota is a dance and music school offering Latin, modern and kids' dance groups plus wedding dance choreography. Images are representative and text is fictional.",
+          "ar": "نوتا مدرسة رقص وموسيقى تقدم مجموعات رقص لاتيني وحديث وللأطفال وتصميم رقصة الزفاف. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Teneffüs köşesi",
-          "en": "Recess corner",
+          "tr": "Dinlenme köşesi",
+          "en": "Rest corner",
           "ar": "ركن الاستراحة"
         },
         "spot2": {
-          "tr": "Ders arası nefes ve kayıt köşesi.",
-          "en": "A breathing and record corner between lessons.",
-          "ar": "ركن تفسح وتسجيل بين الدروس."
+          "tr": "Ders arasında su ve mola alanı.",
+          "en": "Water and a break area between classes.",
+          "ar": "ماء ومنطقة استراحة بين الحصص."
         },
-        "icon2": "verified",
+        "icon2": "water_drop",
         "name3": {
-          "tr": "Defter",
-          "en": "Notebook",
-          "ar": "دفتر"
+          "tr": "Gösteri takvimi",
+          "en": "Showcase calendar",
+          "ar": "تقويم العروض"
         },
         "spot3": {
-          "tr": "Her öğrenci için takip defteri.",
-          "en": "A tracking notebook for each student.",
-          "ar": "دفتر متابعة لكل طالب."
+          "tr": "Dönem sonu gösterileri ve etkinlikler.",
+          "en": "End-of-term showcases and events.",
+          "ar": "عروض نهاية الفصل والفعاليات."
         },
-        "icon3": "schedule",
-        "img": "egitim-laboratuvar.webp",
+        "icon3": "event",
+        "img": "spor-ders-salonu.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 10:00 – 20:00",
+          "en": "Every day 10:00 – 20:00",
+          "ar": "كل يوم 10:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "18px",
         "title": {
-          "tr": "Notaya uygula",
-          "en": "Follow the note",
-          "ar": "اتبع النوتة"
+          "tr": "İlk adımı atın",
+          "en": "Take the first step",
+          "ar": "ابدأ بالخطوة الأولى"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Deneme dersi için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form for a trial class; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج لحجز حصة تجريبية؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Deneme dersi al",
+          "en": "Book a trial class",
+          "ar": "احجز حصة تجريبية"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Dans gruplarını gör",
+          "en": "See dance classes",
+          "ar": "شاهد مجموعات الرقص"
         },
         "btn2Url": "hizmetler",
         "number": "903420200101",
