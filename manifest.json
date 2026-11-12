@@ -1,7 +1,7 @@
 {
   "name": "Nota Dans",
   "short_name": "Nota Dans",
-  "description": "Dans ve müzik dersi; görseller temsilîdir.",
+  "description": "Dans ve müzik kursu: Latin, modern, çocuk grupları ve düğün dansı koreografisi; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

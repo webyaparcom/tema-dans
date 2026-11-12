@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Kayıttan sınava; dersten takibe.",
-        "en": "From registration to exam; from lesson to tracking.",
-        "ar": "من التسجيل إلى الامتحان؛ من الدرس إلى المتابعة."
+        "tr": "Başlangıçtan sahneye; yaşa ve seviyeye göre gruplar.",
+        "en": "From first steps to the stage; groups by age and level.",
+        "ar": "من الخطوات الأولى إلى المسرح؛ مجموعات حسب العمر والمستوى."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Dans ve müzik dersi; görseller temsilîdir.",
-        "en": "Dance and music lessons; images are representative.",
-        "ar": "دروس رقص وموسيقى؛ الصور تمثيلية."
+        "tr": "Dans ve müzik kursu; görseller temsilîdir.",
+        "en": "Dance and music school; images are representative.",
+        "ar": "مدرسة رقص وموسيقى؛ الصور تمثيلية."
       }
     },
     {

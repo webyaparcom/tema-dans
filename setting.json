@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Dans ve müzik dersi; görseller temsilîdir.",
-    "en": "Dance and music lessons; images are representative.",
-    "ar": "دروس رقص وموسيقى؛ الصور تمثيلية."
+    "tr": "Dans ve müzik kursu: Latin, modern, çocuk grupları ve düğün dansı koreografisi; görseller temsilîdir.",
+    "en": "Dance and music school: Latin, modern, kids' groups and wedding dance choreography; images are representative.",
+    "ar": "مدرسة رقص وموسيقى: لاتيني وحديث ومجموعات أطفال وتصميم رقصة الزفاف؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "dans, müzik, okul",
-    "en": "dance, music, school",
-    "ar": "رقص، موسيقى، مدرسة"
+    "tr": "dans kursu, latin dansları, düğün dansı, çocuk dans, ritim",
+    "en": "dance school, latin dance, wedding dance, kids dance, rhythm",
+    "ar": "مدرسة رقص، رقص لاتيني، رقصة الزفاف، رقص أطفال، إيقاع"
   },
   "category": "Kurumsal",
   "name": "Nota Dans",
